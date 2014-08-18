@@ -10,6 +10,7 @@
 		5EA06828197CE10000D80E0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA06827197CE10000D80E0D /* Foundation.framework */; };
 		5EA0682B197CE10000D80E0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA0682A197CE10000D80E0D /* main.m */; };
 		5EA0682F197CE10000D80E0D /* RandomItems.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5EA0682E197CE10000D80E0D /* RandomItems.1 */; };
+		5EA06837197CFF6500D80E0D /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA06836197CFF6500D80E0D /* BNRItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		5EA0682A197CE10000D80E0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EA0682D197CE10000D80E0D /* RandomItems-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomItems-Prefix.pch"; sourceTree = "<group>"; };
 		5EA0682E197CE10000D80E0D /* RandomItems.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RandomItems.1; sourceTree = "<group>"; };
+		5EA06835197CFF6500D80E0D /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		5EA06836197CFF6500D80E0D /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		5EA0681B197CE10000D80E0D = {
 			isa = PBXGroup;
 			children = (
+				5EA06835197CFF6500D80E0D /* BNRItem.h */,
+				5EA06836197CFF6500D80E0D /* BNRItem.m */,
 				5EA06829197CE10000D80E0D /* RandomItems */,
 				5EA06826197CE10000D80E0D /* Frameworks */,
 				5EA06825197CE10000D80E0D /* Products */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EA0682B197CE10000D80E0D /* main.m in Sources */,
+				5EA06837197CFF6500D80E0D /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
